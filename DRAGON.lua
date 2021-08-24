@@ -2793,22 +2793,6 @@ end
 end,nil)  
 end
 
-if text ==  'السورس'  or text ==  'سورس'  or text ==  'يا سورس'  or text ==  source  then 
-local Text = [[ 
-[❆ اهــــلا بـــيــك فــي ســورس فــولــتـر  ❆](t.me/V_O_L_T_E_R)
-]] 
-┍━━━━━☛ 𝚟𝚘𝚕𝚝𝚎𝚛 ☚━━━━━┑
-      𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙫𝙤𝙡𝙩𝙖𝙧 
-┕━━━━━☛ 𝚟𝚘𝚕𝚝𝚎𝚛 ☚━━━━━┙
-keyboard = {}  
-keyboard.inline_keyboard = { 
-{{text =  "ᴅᴠ ᴇʟᴋᴀʙᴏѕ", url="t.me/U_4_P"}}, 
-{{text =  "ᴅᴠ ᴊᴀᴍᴍᴀᴍ" ,url="t.me/A_2_2"}}, 
-{{text =  "ᴠᴏʟᴛᴀʀ ѕᴏᴜʀᴄѕ", url="t.me/V_O_L_T_E_R"}}, 
-} 
-local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token.. /sendPhoto?chat_id=  .. msg.chat_id_ ..  &photo=https://t.me/V_O_L_T_E_R&caption=  .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
-end
 
 if text == 'مين عاملو' or text == 'عايزه بوت' or text == 'بوت مين' or text == '"' then
 local Text =[[
@@ -13124,7 +13108,7 @@ return false
 end
 local Teext =[[
 انت الان في قائمة تنبيه المعرف
-*⊱━━━━━☛ 𝚟𝚘𝚕𝚝𝚎𝚛 ☚━━━━━⊰*
+*⊱━━━━━☛ 𝚟𝚘𝚕??𝚎𝚛 ☚━━━━━⊰*
 الاوامر الخاصة فـي تنبيه المعرف
 تفعيل تنبيه المعرف
 تعطيل تنبيه المعرف
