@@ -2792,22 +2792,22 @@ end
 end
 end,nil)  
 end
-if text ==  'السورس'  or text ==  'سورس'  or text ==  'يا سورس'  or text ==  source  then 
-local Text = [[ 
-[❆ اهــــلا بـــيــك فــي ســورس فــولــتـر  ❆]( t.me/V_O_L_T_E_R )
 
-┍━━━━━☛ 𝚟𝚘𝚕𝚝𝚎𝚛 ☚━━━━━┑
-      𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙫𝙤𝙡𝙩𝙖𝙧 
-┕━━━━━☛ 𝚟𝚘𝚕𝚝𝚎𝚛 ☚━━━━━┙
-]] 
-keyboard = {}  
-keyboard.inline_keyboard = { 
-{{text = 'ᴅᴠ ᴇʟᴋᴀʙᴏѕ', url="t.me/U_4_P "}}, 
-{{text = 'ᴅᴠ ᴊᴀᴍᴍᴀᴍ', url="t.me/A_2_2 "}}, 
-{{text = 'ᴠᴏʟᴛᴀʀ ѕᴏᴜʀᴄѕ', url="t.me/V_O_L_T_E_R "}}, 
-} 
-local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token.. /sendPhoto?chat_id=  .. msg.chat_id_ ..  &photo=https://t.me/V_O_L_T_E_R&caption=  .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
+local Text = [[
+[𝐰𝐞𝐥𝐜𝐨𝐦 𝐨𝐭 𝐬𝐨𝐮𝐫𝐜𝐞 𝐭𝐨𝐤𝐲𝐨](t.me/Source_T7)
+
+[𝐭𝐡𝐞 𝐛𝐞𝐬𝐭 𝐬𝐨𝐮𝐫𝐜𝐞 𝐨𝐧 𝐭𝐞𝐭𝐥𝐞𝐠𝐫𝐚𝐦](t.me/Source_T7)
+
+[𝐫𝐨𝐠𝐞𝐧 𝐢𝐧 𝐛𝐨𝐮𝐭𝐭𝐨𝐧𝐬 𝐛𝐞𝐥𝐨𝐥](t.me/Source_T7)
+]]
+keyboard = {} 
+keyboard.inline_keyboard = {
+{{text = 'الـمطـور عـرابـۍۧ',url="t.me/DEV_ORABI"}},{{text = 'تـواصـل الـسـورس',url="t.me/UU_TTOKYO"}},
+{{text = 'قـنـاه الـسـورس', url="t.me/Source_T7"}},
+}
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Source_T7&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
 if text == 'مين عاملو' or text == 'عايزه بوت' or text == 'بوت مين' or text == '"' then
